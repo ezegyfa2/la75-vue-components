@@ -1,5 +1,5 @@
 <script>
-    import SuccessMessageBox from '../../../helper-vue-components/src/SessionMessages/SuccessMessage/Component'
+    import SuccessMessageBox from '../../../helper-vue-components/src/SessionMessages/MessageBox/Component.vue'
 
     export default {
         mixins: [

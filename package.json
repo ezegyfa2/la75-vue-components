@@ -1,6 +1,6 @@
 {
   "name": "gurulo-lofasz-vue-components",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A lofasz azon fajtaja mely gurulasra alkalmas",
   "main": "src/index.js",
   "scripts": {
