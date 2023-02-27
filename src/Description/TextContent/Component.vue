@@ -5,10 +5,13 @@
         mixins: [
             MediumTextContent
         ],
-        data() {
-            return {
-                addedClasses: {
-                    '.title': 'h3',
+        props: {
+            added_classes: {
+                type: Object,
+                default () {
+                    return {
+                        '.title': 'h3',
+                    }
                 }
             }
         }
