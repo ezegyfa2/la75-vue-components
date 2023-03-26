@@ -14,12 +14,15 @@
                 type: String
             }
         },
-        data() {
-            return {
-                addedClasses: {
-                    '.title': 'h3',
-                    '.sub-title': 'h3',
-                    '.content': 'text-muted'
+        props: {
+            added_classes: {
+                type: Object,
+                default () {
+                    return {
+                        '.title': 'h3',
+                        '.sub-title': 'h3',
+                        '.content': 'text-muted'
+                    }
                 }
             }
         }
