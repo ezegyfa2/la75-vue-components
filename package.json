@@ -1,24 +1,27 @@
 {
-  "name": "gurulo-lofasz-vue-components",
-  "version": "1.0.3",
-  "description": "A lofasz azon fajtaja mely gurulasra alkalmas",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ezegyfa2/gurulo-lofasz-vue-components.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ezegyfa2/gurulo-lofasz-vue-components/issues"
-  },
-  "homepage": "https://github.com/ezegyfa2/gurulo-lofasz-vue-components#readme",
-  "dependencies": {
-    "helper-vue-components": "*",
-    "text-contents-vue-components": "*",
-    "description-vue-components": "*"
-  }
+    "name": "la75-vue-components",
+    "version": "1.0.0",
+    "description": "A lofasz azon fajtaja mely gurulasra alkalmas",
+    "main": "src/index.js",
+    "exports": {
+        "./*": "./src/*"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ezegyfa2/la75-vue-components.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ezegyfa2/la75-vue-components/issues"
+    },
+    "homepage": "https://github.com/ezegyfa2/la75-vue-components#readme",
+    "dependencies": {
+        "helper-vue-components": "*",
+        "text-contents-vue-components": "*",
+        "description-vue-components": "*"
+    }
 }
